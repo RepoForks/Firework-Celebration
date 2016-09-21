@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="@integer/firework_duration"
+        android:propertyName="trimPathStart"
+        android:valueType="floatType"
+        android:valueFrom="@fraction/firework_init_trim_start"
+        android:valueTo="@fraction/firework_final_trim_start"/>
+</set>

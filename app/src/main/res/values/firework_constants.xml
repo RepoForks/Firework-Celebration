@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firework_path" translatable="false">
+        M50,50l0,45
+    </string>
+
+    <attr name="firework_color" format="color"/>
+    <declare-styleable name="FireworkView">
+        <attr name="firework_style" format="reference"/>
+    </declare-styleable>
+
+    <style name="Firework">
+        <item name="firework_color">@android:color/black</item>
+    </style>
+
+    <style name="Firework.Blue">
+        <item name="firework_color">#2196f3</item>
+    </style>
+
+    <style name="Firework.Yellow">
+        <item name="firework_color">#ffeb3b</item>
+    </style>
+
+    <style name="Firework.White">
+        <item name="firework_color">#fafafa</item>
+    </style>
+
+    <style name="Firework.Green">
+        <item name="firework_color">#4caf50</item>
+    </style>
+
+    <style name="Firework.Orange">
+        <item name="firework_color">#ff9800</item>
+    </style>
+
+    <style name="Firework.Purple">
+        <item name="firework_color">#e040fb</item>
+    </style>
+
+    <style name="Firework.Red">
+        <item name="firework_color">#f44336</item>
+    </style>
+
+    <string name="firework_arm0" translatable="false">firework0</string>
+    <string name="firework_arm1" translatable="false">firework1</string>
+    <string name="firework_arm2" translatable="false">firework2</string>
+    <string name="firework_arm3" translatable="false">firework3</string>
+    <string name="firework_arm4" translatable="false">firework4</string>
+    <string name="firework_arm5" translatable="false">firework5</string>
+    <string name="firework_arm6" translatable="false">firework6</string>
+    <string name="firework_arm7" translatable="false">firework7</string>
+
+    <dimen name="firework_size">200dp</dimen>
+
+    <integer name="firework_duration">1200</integer>
+
+    <integer name="firework_viewport">100</integer>
+    <integer name="firework_center">50</integer>
+
+    <item name="firework_init_stroke" type="fraction">2</item>
+    <item name="firework_final_stroke" type="fraction">1</item>
+
+    <item name="firework_init_trim_start" type="fraction">-0.1</item>
+    <item name="firework_final_trim_start" type="fraction">1</item>
+
+    <item name="firework_init_trim_end" type="fraction">0</item>
+    <item name="firework_final_trim_end" type="fraction">1</item>
+</resources>
